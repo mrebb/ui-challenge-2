@@ -1,0 +1,75 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-justify: auto;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 0.2em;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*FORM STYLES
+=======================================*/
+label {
+    font-size: 2em;
+    display: block;
+  }
+  
+  input[type=text], textarea {
+    width: 90%;
+    padding: 1.3em;
+    border: 2px solid gray;
+    border-width: 0.2em;
+    border-radius: 0.2em;
+    margin: 6px 6px 50px 0px;
+    clear: left;
+}
+input[type=submit] {
+    width: 20%;
+    padding: 1.3em;
+    border: 2px solid gray;
+    border-width: 0.2em;
+    border-radius: 0.2em;
+    margin: 6px 6px 50px 0px;
+    clear: left;
+    float: left;
+}
+  
+  input[type="checkbox"] {
+    font-size: 3em;
+    margin:10px 40px 100px 40px;
+    display: inline;
+  }
+  input[type="radio"] {
+    width: .28em;
+    height: .28em;
+    font-size: 3em;
+    margin:10px 40px 100px 40px;
+   
+  }
+  input.radio { 
+    display: inline; 
+    
+    }
+  
+  input:invalid, textarea:invalid {
+    border-color: #AE3F3C;
+  }
+  select{
+    width: 92%;
+    padding: 2.3em;
+    border: 1em solid gray;
+    border-width: 0.2em;
+    border-radius: 0.1em;
+    margin: 6px 6px 50px 0px;
+    height: 50px;
+    background: transparent url("../sprite.png") no-repeat 60px center;
+  }
+

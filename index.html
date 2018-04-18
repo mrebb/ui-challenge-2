@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI-Challenge-2</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
+</head>
+<body>
+ 
+            <h1>UI Challenge - Custom Form Elements</h1>
+<div class="container">
+            <form id="new-form" action ="#">
+                <label for="text-input">text input</label>
+                    <input id="text-input" type="text" placeholder="Placeholder text">
+                    <label for="text-input">text input w/ validation error</label>
+                    <input id="text-input" type="text" placeholder="Placeholder text" required>
+
+
+                    <label>select box</label>
+    <select id="select-box">
+            <option value="" disabled selected>please select an option</option>
+    </select>
+                    <label>select box - open</label>
+    <select class = "selectParent" id="select-box-open">
+      <option value="option1">Option1</option>
+      <option value="option2">Option2</option>
+      <option value="option3">Option3</option>
+      <option value="option4">Option4</option>
+      <option value="option5">Option5</option>
+    </select>
+    <input type="checkbox">
+    <input type="checkbox" checked = "checked">
+    <input class ="radio" type="radio">
+    <input class ="radio" type = "radio" checked= "checked">
+    <input type="submit" value="Submit">
+    <input type="submit" id = "hover-submit" value="Submit">
+            </form>
+        </div>
+</body>
+</html>
